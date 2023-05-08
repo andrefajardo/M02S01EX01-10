@@ -3,7 +3,7 @@ package Semana01.Exercicio;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Exercicio {
+public class Exercicio1_10 {
     public static void main(String[] args) {
 
         String ctrl = "start";
