@@ -31,6 +31,12 @@ public class Exercicio1_10 {
         for (int i = 0; i < listaAlunos.size(); i++) {
             System.out.println("Aluno(a): " + listaAlunos.get(i));
             System.out.println("Notas: " + Arrays.toString(listaNotas.get(i)));
+            Double totalNotas = 0.0;
+            for (int posicaoNota = 0; posicaoNota < 3 ; posicaoNota++) {
+                totalNotas =+ listaNotas.get(i)[posicaoNota];
+            }
+            double mediaAluno = totalNotas / listaNotas.get(i).length;
+            System.out.println("Média = " + mediaAluno);
         }
     }
 }
