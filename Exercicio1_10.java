@@ -1,6 +1,7 @@
 package Semana01.Exercicio;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Exercicio1_10 {
@@ -27,6 +28,9 @@ public class Exercicio1_10 {
                 listaNotas.add(notas);
             }
         }
-        listaAlunos.forEach(System.out::println);
+        for (int i = 0; i < listaAlunos.size(); i++) {
+            System.out.println("Aluno(a): " + listaAlunos.get(i));
+            System.out.println("Notas: " + Arrays.toString(listaNotas.get(i)));
+        }
     }
 }
