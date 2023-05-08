@@ -37,6 +37,11 @@ public class Exercicio1_10 {
             }
             double mediaAluno = totalNotas / listaNotas.get(i).length;
             System.out.println("Média = " + mediaAluno);
+            if ( mediaAluno >= 7.0){
+                System.out.println("Resultado: " + listaAlunos.get(i) + " - APROVADO");
+            } else {
+                System.out.println("Resultado: " + listaAlunos.get(i) + " - REPROVADO");
+            }
         }
     }
 }
